@@ -40,6 +40,7 @@ With this release the systemd configuration files for InfluxDB will use the syst
 - [#6928](https://github.com/influxdata/influxdb/issues/6928): Run continuous query for multiple buckets rather than one per bucket.
 - [#5500](https://github.com/influxdata/influxdb/issues/5500): Add extra trace logging to tsm engine.
 - [#6909](https://github.com/influxdata/influxdb/issues/6909): Log the CQ execution time when continuous query logging is enabled.
+- [#7011](https://github.com/influxdata/influxdb/issues/7011): Create man pages for commands.
 
 ### Bugfixes
 
