@@ -100,6 +100,7 @@ With this release the systemd configuration files for InfluxDB will use the syst
 - [#6946](https://github.com/influxdata/influxdb/issues/6946): Duplicate data for the same timestamp
 - [#7043](https://github.com/influxdata/influxdb/pull/7043): Remove limiter from walkShards
 - [#5501](https://github.com/influxdata/influxdb/issues/5501): Queries against files that have just been compacted need to point to new files
+- [#7032](https://github.com/influxdata/influxdb/pull/7032): Copy tags in influx_stress to avoid a concurrent write panic on a map.
 
 ## v0.13.0 [2016-05-12]
 
